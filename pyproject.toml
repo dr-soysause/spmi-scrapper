@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "parse37"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "3.7.8"
+bs4 = "^0.0.1"
+requests = "^2.27.1"
+lxml = "^4.8.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
